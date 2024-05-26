@@ -1,6 +1,6 @@
 package utils.numbresPyramidParser;
 
-import problem18.numbersPyramid.NumbersPyramid;
+import problem018.numbersPyramid.NumbersPyramid;
 
 import java.util.List;
 

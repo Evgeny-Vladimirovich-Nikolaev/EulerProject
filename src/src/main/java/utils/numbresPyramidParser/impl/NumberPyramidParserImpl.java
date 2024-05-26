@@ -1,7 +1,7 @@
 package utils.numbresPyramidParser.impl;
 
-import problem18.numbersPyramid.NumbersPyramid;
-import problem18.numbersPyramid.impl.NumbersPyramidImpl;
+import problem018.numbersPyramid.NumbersPyramid;
+import problem018.numbersPyramid.impl.NumbersPyramidImpl;
 import utils.numbresPyramidParser.NumberPyramidParser;
 
 import java.util.Arrays;

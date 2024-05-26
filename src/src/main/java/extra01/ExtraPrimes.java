@@ -1,7 +1,5 @@
 package extra01;
 
-import problem41.PandigitalPrimeReload;
-
 import java.util.ArrayList;
 import java.util.List;
 
