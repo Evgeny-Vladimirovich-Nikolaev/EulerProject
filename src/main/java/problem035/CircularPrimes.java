@@ -26,7 +26,7 @@ public class CircularPrimes {
             }
         }
         long end = System.currentTimeMillis();
-        System.out.println(end - start);
+        System.out.println("elapsed time: " + (end - start) + "ms");
         System.out.println(allNumbers);
         System.out.println(allNumbers.size());
     }
