@@ -1,4 +1,4 @@
-package main.java.problem006;
+package problem006;
 
 public class SumSquareDifference {
 

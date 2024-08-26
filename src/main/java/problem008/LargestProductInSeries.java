@@ -1,4 +1,4 @@
-package main.java.problem008;
+package problem008;
 
 public class LargestProductInSeries {
 

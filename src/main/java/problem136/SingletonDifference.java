@@ -1,4 +1,4 @@
-package main.java.problem136;
+package problem136;
 
 public class SingletonDifference {
     private static final int NUMBERS_SIZE = 50_000_000;

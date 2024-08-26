@@ -1,4 +1,4 @@
-package main.java.problem018.model;
+package problem018.model;
 
 
 

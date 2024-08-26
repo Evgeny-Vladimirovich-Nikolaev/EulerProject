@@ -1,4 +1,4 @@
-package main.java.problem005;
+package problem005;
 
 public class SmallestMultiple {
 

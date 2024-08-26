@@ -1,4 +1,4 @@
-package main.java.problem007;
+package problem007;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class Problem7 {
         long start = System.currentTimeMillis();
         findPrimes();
         long end = System.currentTimeMillis();
-        System.out.println(primes.getLast());
+//        System.out.println(primes.getLast());
         System.out.println(end - start);
         System.out.println(primes);
     }

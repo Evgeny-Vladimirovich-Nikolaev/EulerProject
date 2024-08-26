@@ -1,4 +1,4 @@
-package main.java.problem021;
+package problem021;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

@@ -1,4 +1,4 @@
-package main.java.extra01;
+package extra01;
 
 public class Extra01 {
 

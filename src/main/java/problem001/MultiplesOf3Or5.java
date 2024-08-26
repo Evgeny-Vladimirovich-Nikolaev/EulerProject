@@ -1,4 +1,4 @@
-package main.java.problem001;
+package problem001;
 
 public class MultiplesOf3Or5 {
 

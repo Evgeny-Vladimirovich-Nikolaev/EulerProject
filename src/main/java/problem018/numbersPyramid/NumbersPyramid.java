@@ -1,4 +1,4 @@
-package main.java.problem018.numbersPyramid;
+package problem018.numbersPyramid;
 
 public interface NumbersPyramid {
 

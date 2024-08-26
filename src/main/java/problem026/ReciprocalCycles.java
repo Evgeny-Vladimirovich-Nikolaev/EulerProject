@@ -1,4 +1,4 @@
-package main.java.problem026;
+package problem026;
 
 import java.math.BigInteger;
 

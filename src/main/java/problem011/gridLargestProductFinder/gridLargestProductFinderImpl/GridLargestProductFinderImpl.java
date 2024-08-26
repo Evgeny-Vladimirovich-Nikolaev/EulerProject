@@ -1,6 +1,6 @@
-package main.java.problem011.gridLargestProductFinder.gridLargestProductFinderImpl;
+package problem011.gridLargestProductFinder.gridLargestProductFinderImpl;
 
-import main.java.problem011.gridLargestProductFinder.GridLargestProductFinder;
+import problem011.gridLargestProductFinder.GridLargestProductFinder;
 
 public class GridLargestProductFinderImpl implements GridLargestProductFinder {
 

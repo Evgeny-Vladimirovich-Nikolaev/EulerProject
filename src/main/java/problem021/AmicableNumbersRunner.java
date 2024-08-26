@@ -1,4 +1,4 @@
-package main.java.problem021;
+package problem021;
 
 public class AmicableNumbersRunner {
     public static void main(String[] args) {

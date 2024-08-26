@@ -1,4 +1,4 @@
-package main.java.problem003;
+package problem003;
 
 public class LargestSimpleDivisor {
 

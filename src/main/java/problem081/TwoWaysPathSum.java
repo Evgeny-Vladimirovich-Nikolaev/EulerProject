@@ -1,4 +1,4 @@
-package main.java.problem081;
+package problem081;
 
 public class TwoWaysPathSum {
 

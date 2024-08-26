@@ -1,4 +1,4 @@
-package main.java.problem004;
+package problem004;
 
 public class LargestPalindromeProduct {
 

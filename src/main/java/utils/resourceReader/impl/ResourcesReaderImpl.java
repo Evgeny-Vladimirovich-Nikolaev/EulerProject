@@ -1,8 +1,9 @@
-package main.java.utils.resourceReader.impl;
+package utils.resourceReader.impl;
 
-import main.java.utils.resourceReader.ResourceReader;
+import utils.resourceReader.ResourceReader;
 
 import java.io.*;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,10 +25,13 @@ public class ResourcesReaderImpl implements ResourceReader {
     }
 
     public List<String> readByLines(String fileName) {
+        return readByLines(fileName, StandardCharsets.UTF_8);
+    }
+    public List<String> readByLines(String fileName, Charset charset) {
         List<String> lines = new ArrayList<>();
         InputStream stream = getFileFromResourceAsStream(fileName);
         try {
-            try (InputStreamReader streamReader = new InputStreamReader(stream, StandardCharsets.UTF_8);
+            try (InputStreamReader streamReader = new InputStreamReader(stream, charset);
                      BufferedReader reader = new BufferedReader(streamReader)) {
                 String line;
                 while ((line = reader.readLine()) != null) {
@@ -42,9 +46,13 @@ public class ResourcesReaderImpl implements ResourceReader {
     }
 
     public String readText(String fileName) {
+        return readText(fileName, StandardCharsets.UTF_8);
+    }
+
+    public String readText(String fileName, Charset charset) {
         StringBuilder sb = new StringBuilder();
         InputStream stream = getFileFromResourceAsStream(fileName);
-        try (InputStreamReader streamReader = new InputStreamReader(stream, StandardCharsets.UTF_8);
+        try (InputStreamReader streamReader = new InputStreamReader(stream, charset);
              BufferedReader reader = new BufferedReader(streamReader)) {
             String line;
             while ((line = reader.readLine()) != null) {

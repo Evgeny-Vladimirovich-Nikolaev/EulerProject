@@ -1,4 +1,4 @@
-package main.java.problem011.gridLargestProductFinder;
+package problem011.gridLargestProductFinder;
 
 public interface GridLargestProductFinder {
 

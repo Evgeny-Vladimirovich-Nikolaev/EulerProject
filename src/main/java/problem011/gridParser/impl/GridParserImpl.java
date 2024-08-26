@@ -1,6 +1,6 @@
-package main.java.problem011.gridParser.impl;
+package problem011.gridParser.impl;
 
-import main.java.problem011.gridParser.GridParser;
+import problem011.gridParser.GridParser;
 
 import java.util.List;
 

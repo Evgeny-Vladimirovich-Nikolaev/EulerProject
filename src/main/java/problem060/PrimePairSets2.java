@@ -1,4 +1,4 @@
-package main.java.problem060;
+package problem060;
 
 public class PrimePairSets2 {
 

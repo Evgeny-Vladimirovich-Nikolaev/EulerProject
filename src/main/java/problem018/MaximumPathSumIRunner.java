@@ -1,10 +1,10 @@
-package main.java.problem018;
+package problem018;
 
-import main.java.utils.numbresPyramidParser.impl.NumberPyramidParserImpl;
-import main.java.problem018.numbersPyramid.NumbersPyramid;
-import main.java.utils.numbresPyramidParser.NumberPyramidParser;
-import main.java.utils.resourceReader.ResourceReader;
-import main.java.utils.resourceReader.impl.ResourcesReaderImpl;
+import problem018.numbersPyramid.NumbersPyramid;
+import utils.numbresPyramidParser.NumberPyramidParser;
+import utils.numbresPyramidParser.impl.NumberPyramidParserImpl;
+import utils.resourceReader.ResourceReader;
+import utils.resourceReader.impl.ResourcesReaderImpl;
 
 import java.util.List;
 

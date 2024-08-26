@@ -1,4 +1,4 @@
-package main.java.extra02;
+package extra02;
 
 import java.util.ArrayList;
 import java.util.List;

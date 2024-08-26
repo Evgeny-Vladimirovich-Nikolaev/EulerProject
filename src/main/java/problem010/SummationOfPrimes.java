@@ -1,4 +1,4 @@
-package main.java.problem010;
+package problem010;
 
 public class SummationOfPrimes {
 

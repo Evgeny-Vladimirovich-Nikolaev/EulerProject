@@ -1,4 +1,4 @@
-package main.java.problem041;
+package problem041;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ public class Problem41 {
         PandigitalPrimeReload pandigitalPrimeReload = new PandigitalPrimeReload(987_654_203, true);
         System.out.println(pandigitalPrimeReload.getMax());
         List<Integer> primes = pandigitalPrimeReload.getPrimes();
-        System.out.println(primes.size() + " " + primes.getLast());
+//        System.out.println(primes.size() + " " + primes.getLast());
     }
 
 }

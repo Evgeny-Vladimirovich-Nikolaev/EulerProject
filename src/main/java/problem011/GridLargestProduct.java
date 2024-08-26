@@ -1,11 +1,10 @@
-package main.java.problem011;
+package problem011;
 
-import main.java.problem011.gridLargestProductFinder.gridLargestProductFinderImpl.GridLargestProductFinderImpl;
-import main.java.problem011.gridParser.impl.GridParserImpl;
-import main.java.utils.resourceReader.ResourceReader;
-import main.java.utils.resourceReader.impl.ResourcesReaderImpl;
+import problem011.gridLargestProductFinder.gridLargestProductFinderImpl.GridLargestProductFinderImpl;
+import problem011.gridParser.impl.GridParserImpl;
+import utils.resourceReader.ResourceReader;
+import utils.resourceReader.impl.ResourcesReaderImpl;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class GridLargestProduct {

@@ -1,4 +1,4 @@
-package main.java.problem012;
+package problem012;
 
 public class HighlyDivisibleTriangularNumber {
 

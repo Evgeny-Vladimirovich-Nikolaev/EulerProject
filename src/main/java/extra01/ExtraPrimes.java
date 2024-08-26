@@ -1,4 +1,4 @@
-package main.java.extra01;
+package extra01;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class ExtraPrimes {
     ExtraPrimes() {
         primes = new ArrayList<>();
         findPrimes();
-        System.out.println("size: " + primes.size() + " " +primes.getLast());
+//        System.out.println("size: " + primes.size() + " " +primes.getLast());
     }
 
     private void findPrimes() {

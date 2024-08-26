@@ -1,7 +1,7 @@
-package main.java.problem081;
+package problem081;
 
-import main.java.utils.resourceReader.ResourceReader;
-import main.java.utils.resourceReader.impl.ResourcesReaderImpl;
+import utils.resourceReader.ResourceReader;
+import utils.resourceReader.impl.ResourcesReaderImpl;
 
 import java.util.ArrayList;
 import java.util.List;

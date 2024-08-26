@@ -1,4 +1,4 @@
-package main.java.problem033;
+package problem033;
 
 public class Fraction implements Comparable {
 

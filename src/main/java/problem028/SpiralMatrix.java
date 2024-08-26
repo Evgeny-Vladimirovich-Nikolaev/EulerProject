@@ -1,4 +1,4 @@
-package main.java.problem028;
+package problem028;
 
 public class SpiralMatrix {
 

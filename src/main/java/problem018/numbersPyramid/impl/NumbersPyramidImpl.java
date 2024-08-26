@@ -1,7 +1,7 @@
-package main.java.problem018.numbersPyramid.impl;
+package problem018.numbersPyramid.impl;
 
-import main.java.problem018.model.NumbersPyramidNode;
-import main.java.problem018.numbersPyramid.NumbersPyramid;
+import problem018.model.NumbersPyramidNode;
+import problem018.numbersPyramid.NumbersPyramid;
 
 public class NumbersPyramidImpl implements NumbersPyramid {
 

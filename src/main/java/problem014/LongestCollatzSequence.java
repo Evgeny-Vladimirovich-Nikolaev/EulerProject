@@ -1,4 +1,4 @@
-package main.java.problem014;
+package problem014;
 
 public class LongestCollatzSequence {
 

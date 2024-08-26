@@ -1,4 +1,4 @@
-package main.java.problem011.gridParser;
+package problem011.gridParser;
 
 import java.util.List;
 

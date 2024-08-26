@@ -1,4 +1,4 @@
-package main.java.problem007;
+package problem007;
 
 public class Problem7_bis {
 

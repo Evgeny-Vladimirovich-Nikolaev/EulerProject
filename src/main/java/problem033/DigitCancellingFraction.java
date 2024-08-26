@@ -1,4 +1,4 @@
-package main.java.problem033;
+package problem033;
 
 public class DigitCancellingFraction extends Fraction {
 
