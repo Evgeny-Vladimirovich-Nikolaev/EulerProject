@@ -7,27 +7,20 @@ public class SieveOfEratosthenes {
 
     private final int limit;
     private final boolean[] sieve;
-    private final List<Integer> primes;
 
     public SieveOfEratosthenes(int limit) {
         this.limit = limit;
         this.sieve = new boolean[limit];
-        this.primes = new ArrayList<>();
         fillSieve();
-        fillPrimes();
-    }
-
-    public List<Integer> getPrimes() {
-        return primes;
     }
 
     private void fillSieve() {
         int max = (int) Math.sqrt(limit);
         int prime = 2;
-        while (prime < max) {
+        while (prime <= max) {
             int multiplier = 2;
             int number = prime * multiplier;
-            while(number < limit) {
+            while (number < limit) {
                 sieve[number] = true;
                 number = prime * ++multiplier;
             }
@@ -37,11 +30,41 @@ public class SieveOfEratosthenes {
         }
     }
 
-    private void fillPrimes() {
-        for(int ind = 2; ind < limit; ind++) {
-            if(!sieve[ind]) {
+    public List<Integer> getPrimesAsList() {
+        List<Integer> primes;
+        if (limit > 1000) {
+            primes = new ArrayList<>(limit / 19);
+        } else {
+            primes = new ArrayList<>();
+        }
+        fillList(primes);
+        return primes;
+    }
+
+    private void fillList(List<Integer> primes) {
+        for (int ind = 2; ind < limit; ind++) {
+            if (!sieve[ind]) {
                 primes.add(ind);
             }
         }
     }
+
+    public int[] getPrimesAsArray() {
+        int size = 0;
+        int[] primes;
+        int ind = 0;
+        for(int i = 2; i < sieve.length; i++) {
+            if(!sieve[i]) {
+                size++;
+            }
+        }
+        primes = new int[size];
+        for(int i = 2; i < sieve.length; i++) {
+            if(!sieve[i]) {
+                primes[ind++] = i;
+            }
+        }
+        return primes;
+    }
+
 }

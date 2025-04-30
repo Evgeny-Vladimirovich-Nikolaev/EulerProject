@@ -5,7 +5,7 @@ import java.util.List;
 
 public class DigitFifthPowers {
 
-    private static final int DEGREE = 8;
+    private static final int DEGREE = 5;
     private static int[] degreesValues;
 //    private static int oneDigitDegreesMax;
     private static int oneDigitMax;
